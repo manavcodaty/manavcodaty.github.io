@@ -1,0 +1,40 @@
+#imgcarousel{
+    overflow: hidden;
+    height:min(60vh,80vw);
+    width:100%;
+    background-image: url('/webs.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:top;
+    border-radius: 10px;
+}
+
+
+#cardmain{
+    background-color: rgb(211, 211, 211);
+    border-radius: 20px;
+    padding: 20px;
+    margin:20px;
+    margin-bottom: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width:801px)  {
+    #cardmain{
+        padding: 0px;
+        padding-bottom: 30px;
+    }
+ }
+
+ @media (max-width:575px)  {
+    #cardmain{
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+    }
+ }

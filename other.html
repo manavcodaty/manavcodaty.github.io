@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Mohamed Firas Adil - Other</title>
+    <meta name="description" content="Personal Portfolio Website by Mohamed Firas Adil, an astute Computer Science student with a zeal for learning." />
+    <meta name="keywords" content="Mohamed Firas Adil,Firas Adil,Mohamed Firas,Firas,Personal Portfolio,Portfolio,technology,software,cli,gui,websites,apps,python" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/secondmain.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="js/popper.js"></script>
+<script src="js/bstrap4.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" type="text/css" href="css/secondstyle.css">
+</head>
+<body onload="init();" style="background-color: #000000;">
+<div id="backgrounddiv"  style="position:fixed; top:0;left:0;z-index:-1;margin: 0; padding: 0; background-color:#000000;width:100vw;height:100vh;">
+<canvas id="canvas" width="1280" height="720" style="display:block;margin:0 auto;"></canvas>
+</div>
+
+<div class="container" style="z-index:0;">
+    <div class="row">
+        <div class="col-sm-12" style="text-align: center;"><h1 style="font-size:xx-large;color:white;font-weight: bolder;margin-top: 30px;margin-bottom: 30px;"><a href="/index.html"><i class="fa fa-home" aria-hidden="true"></i></a> > OTHER</h1></div>
+
+        <div class="col-sm-10" id="cardmain">
+            <div id="contract-maker" class="carousel slide" data-ride="carousel" style="height:min(60vh,50vw);overflow:hidden;" data-interval="false">
+                <div class="carousel-inner">
+                <div class="carousel-item active" id="imgcarousel" style="background-image: url('/images/contract/2.jpg');"></div>
+                <div class="carousel-item" id="imgcarousel" style="background-image: url('/images/contract/1.jpg');"></div>
+                </div>
+                <a class="carousel-control-prev" href="#contract-maker" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#contract-maker" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <div class="col-sm-12" style="margin-top:20px;font-size: large;">
+                <div class="col-sm-12">
+                <div class="col-sm-12">
+                    <br>
+                    <h1><b>Contract Maker</b> <a href="#contract-maker" style="color:blue;"><i class="fa fa-link" aria-hidden="true"></i></a></h1><br>
+                    <p style="font-size: medium;">
+                        Contract Maker is a telegram bot built to help a relative manage their property renting needs.
+<br><br>This bot was custom built so the user could generate contracts with a simple chatbot instead of a long process of manually entering all the data for each new tenant. 
+<br><br>Additionally, the bot generates monthly income reports and sends a reminder a few weeks before each renewal via email.
+<br><br>This program has reduced time spent on contract creation by nearly 90% which is a testament to automation and it’s benefits.
+
+
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="col-sm-6">
+                    <br>
+                    <h2><b>Features</b></h1>
+                    <ul style="font-size: medium;">
+                        <li>Automatically calculates the ending date of the contract</li>
+                        <li>User can view any existing contracts as a pdf or a word file</li>
+                        <li>Photo scan feature allows the user to send a screenshot of the tenants aadhar/other and the bot extracts the information</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6"><br>
+                    <h2><b>Technologies</b></h1>
+                    <ul style="font-size: medium;">
+                        Python running on a Raspberry Pi 4    
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-sm-10" id="cardmain">
+            <div id="bits-courses" class="carousel slide" data-ride="carousel" style="height:min(60vh,50vw);overflow:hidden;" data-interval="false">
+                <div class="carousel-inner">
+                <div class="carousel-item active" id="imgcarousel" style="background-image: url('/images/bits/1.jpg');"></div>
+                </div>
+            </div>
+
+            <div class="col-sm-12" style="margin-top:20px;font-size: large;">
+                <div class="col-sm-12">
+                <div class="col-sm-12">
+                    <br>
+                    <h1><b>Test Reminder Bot</b> <a href="#bits-courses" style="color:blue;"><i class="fa fa-link" aria-hidden="true"></i></a></h1><br>
+                    <p style="font-size: medium;">
+                        I built bits test to remind me of upcoming quizzes, tests or assignments.
+                        <br><br>Bits_test bot allows me to add/delete courses and later view upcoming components.
+                        <br><Br>Additionally it sends me an email a few days before any upcoming component.
+
+
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="col-sm-6"><br>
+                    <h2><b>Technologies</b></h1>
+                    <ul style="font-size: medium;">
+                        Python running on a Raspberry Pi 4    
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-sm-10" id="cardmain">
+            <div id="thegrounds" class="carousel slide" data-ride="carousel" style="height:min(60vh,50vw);overflow:hidden;" data-interval="false">
+                <div class="carousel-inner">
+                <div class="carousel-item active" id="imgcarousel" style="background-image: url('/images/thegrounds/1.jpg');"></div>
+                </div>
+            </div>
+
+            <div class="col-sm-12" style="margin-top:20px;font-size: large;">
+                <div class="col-sm-12">
+                <div class="col-sm-10">
+                    <br>
+                    <h1><b>TheGrounds</b> <a href="#thegrounds" style="color:blue;"><i class="fa fa-link" aria-hidden="true"></i></a></h1><br>
+                    <p style="font-size: medium;">
+                        TheGrounds began back in September 2020, over time it evolved adding more and more softwares/websites. Currently TheGrounds is a suite of the following:
+    
+<ul>
+    <li><A style="color:blue" href="/cli.html#theunderground">TheUnderGround</A></li>
+    <li><A style="color:blue" href="/cli.html#theaboveground">TheAboveGround</A></li>
+    <li><A style="color:blue" href="/websites.html#streamgrounds">StreamGrounds</A></li>
+    <li><A style="color:blue" href="/websites.html#fairgrounds">FairGrounds</A></li>
+    <li><A style="color:blue" href="/cli.html#themusicground">TheMusicGround</A></li>
+</ul>
+All of the above are regularly updated to keep bugs to a minimum and to add new features. While there are less than 20 users mostly friends, I find that TheGrounds was a great learning experience, and the data privacy and control over features are unbeatable.
+<br><Br>
+    Most of TheGrounds software are very valuable to me personally since I use them a lot in the day to day.
+
+
+                    </p>
+                </div>
+                <div class="col-sm-2"><br>
+                    <h1><b>Links</b></h1><br>
+                    <a style="color:blue" target="_blank" href="https://thegrounds.pythonanywhere.com/">WEBSITE</a><br>
+                    
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-sm-12" style="text-align: center;margin-bottom:10vh;font-size: large;color:white;"><a href="/websites.html">WEBSITES</a> &nbsp;◉&nbsp; <a href="/cli.html">CLI</a> &nbsp;◉&nbsp; <a href="/apps.html">APPS</a> &nbsp;◉&nbsp; <a href="/gui.html">GUI</a> &nbsp;◉&nbsp; <a href="/other.html">OTHER</a></div>
+    </div>
+</div>
+
+</div>
+</body>
+<script>
+</script>
+</html>

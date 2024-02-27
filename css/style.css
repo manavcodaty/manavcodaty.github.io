@@ -1,0 +1,355 @@
+body{
+  position: absolute; 
+  width: 100%; 
+  overflow-x: hidden;
+}
+.fadediv{
+  z-index: -2;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top:0;
+  left:0;
+  background-color: black;
+}
+a{
+    text-decoration:none;
+}
+
+.namediv{
+    z-index: 1;
+    overflow: hidden;
+    background-color: rgb(31, 31, 31,0.55  );
+    color:rgb(211, 211, 211);
+    height:90vh;
+    width: 100vw;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.namediv2{
+  z-index: 1;
+  overflow: hidden;
+  background-color: rgb(31, 31, 31);
+  color:rgb(211, 211, 211);
+  height:80vh;
+  width: 100vw;
+  font-size: xx-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.footerdes{
+    min-height:10vh;
+    width: 100vw;
+    background-color: rgb(26, 26, 26);
+    padding-top:2vh;
+}
+
+.namepic  {
+    position: relative;
+    width: max(30vw, 35vh);
+    height: auto;
+    background: white;
+    color: white;
+    transition: all .4s ease;
+  }
+  
+.buttonsend{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 14px 24px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    transition: transform 200ms,background 200ms, box-shadow 200ms;
+    background: transparent;
+    color: rgb(211, 211, 211);
+    box-shadow: 0 0 0 3px rgb(61, 255, 132) inset;
+    
+}
+
+.buttonsend:hover{
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 0 0 1px rgb(0, 255, 94) inset;
+}
+
+  #social {
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #social ul {
+    text-align: center;
+    padding-left: 0px;
+    margin: 0 auto;
+  }
+  
+  #social li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 30px;
+  }
+  
+  /** Facebook **/
+  
+  .linkedin {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .linkedin .border {
+    background: transparent;
+    outline: none;
+    color:rgba(255,255,255, 0.3);
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    border: 2px solid rgba(255,255,255, 0.3);
+    transition: all .2s ease-in-out;
+  }
+  
+  .linkedin .border:hover {
+    background: #3b5998;
+    border-color: #436aaf;
+    color: rgba(255,255,255, 0.9);
+    transform: scale(1.2);
+  }
+  
+  .fa.fa-linkedin {
+    font-size: 25px;
+  }
+  
+  
+  /** Instagram **/
+  
+  .instagram {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .instagram .border {
+    background: transparent;
+    outline: none;
+    color:rgba(255,255,255, 0.3);
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    border: 2px solid rgba(255,255,255, 0.3);
+    transition: all .2s ease-in-out;
+  }
+  
+  .instagram .border:hover {
+    background: #517fa4;
+    border-color: #7495af;
+    color: rgba(255,255,255, 0.9);
+    transform: scale(1.2);
+  }
+  
+  .fa.fa-instagram {
+    font-size: 25px;
+  }
+  
+  /** dribbble **/
+  
+  .github{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .github .border {
+    background: transparent;
+    outline: none;
+    color:rgba(255,255,255, 0.3);
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    border: 2px solid rgba(255,255,255, 0.3);
+    transition: all .2s ease-in-out;
+  }
+  
+  .github .border:hover {
+    background: #171515;
+    border-color: rgb(31, 8, 17);
+    color: rgba(255,255,255, 0.9);
+    transform: scale(1.2);
+  }
+  
+  .fa.fa-github {
+    font-size: 25px;
+  }
+  
+  #social ul li {
+    transition: ease .3s;
+  }
+  
+  #social ul:hover > li {
+    opacity: 0.5;
+  }
+  
+  #social ul:hover > li:hover {
+    opacity: 1;
+  }
+
+  .cc {
+      margin-top:0;
+      top:-10;
+      background-color:rgb(0,0,0,0.8);
+      overflow: hidden;
+      position: absolute;
+      z-index: -1;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (max-width:801px)  { 
+    .namediv{
+        background-color: rgb(31, 31, 31);
+        height: 100vh;
+    }
+    .namediv2{
+      height: 90vh;
+    }
+      .cc{
+          background-color:rgb(0,0,0);
+          display: none;
+      }
+  }
+
+  .items {
+    top: 42.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+  }
+  
+  .items .item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all 300ms ease-in-out;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .item.active {
+    opacity: 1;
+    z-index: 99;
+    box-shadow: 0px 0px 105px -35px rgba(0, 0, 0, 0.75);
+  }
+  
+  .item.prev {
+    z-index: 2;
+    opacity: 0.25;
+    transform: translate(-125%, -50%);
+  }
+  
+  .item.next {
+    z-index: 2;
+    opacity: 0.25;
+    transform: translate(25%, -50%);
+  }
+  
+  .items .button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 275px;
+    z-index: 100;
+  }
+  
+  .button-container .button {
+    color: #fff;
+    font-size: 32px;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.75;
+    transition: all 300ms ease-in-out;
+  }
+  
+  .button-container .button:hover {
+    opacity: 1;
+  }
+  
+  .button-container .button:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 50%;
+    z-index: -99;
+  }
+  
+  .button-container .button:nth-child(1) {
+    float: left;
+  }
+  
+  .button-container .button:nth-child(2) {
+    float: right;
+  }
+
+  .marquee {
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0;
+    height:10vh;
+    line-height: 10vh;
+    width:100vw;
+    display: block;
+    background-color: black;
+}
+.marquee span {
+    display: inline-block;
+    text-indent: 0;
+    overflow: hidden;
+    -webkit-animation: marquee 60s linear infinite;
+    animation: marquee 60s linear infinite;
+}
+
+.marquee span:hover{
+  animation-play-state: paused
+}
+
+.marquee span i{
+  padding-right:200px;
+}
+@keyframes marquee {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+}
