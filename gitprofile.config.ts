@@ -202,6 +202,3 @@ const CONFIG = {
 };
 
 export default CONFIG;
-
-
-export default CONFIG;
