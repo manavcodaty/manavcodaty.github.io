@@ -72,7 +72,7 @@ const CONFIG = {
     skype: '',
     telegram: '',
     website: 'This is my website!',
-    phone: '',
+    phone: '+971 52 978 7466',
     email: 'manav.codaty@gmail.com',
   },
   resume: {
@@ -80,7 +80,7 @@ const CONFIG = {
       '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Java',
+    'Javascript',
     'Python',
     'Pandas',
     'Django',
@@ -102,6 +102,11 @@ const CONFIG = {
       body: 'CIE Exam Board',
       year: 'March 2027',
       link: 'https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-computer-science-0478/',
+    },
+    {
+      name: 'CS50x',
+      body: 'Harvard Courses',
+      year: 'April 2024',
     },
   ],
   educations: [
