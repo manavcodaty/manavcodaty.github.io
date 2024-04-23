@@ -103,11 +103,6 @@ const CONFIG = {
       year: 'March 2027',
       link: 'https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-computer-science-0478/',
     },
-    {
-      name: 'CS50x',
-      body: 'Harvard Courses',
-      year: 'April 2024',
-    },
   ],
   educations: [
     {
