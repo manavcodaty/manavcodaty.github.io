@@ -53,7 +53,7 @@ const CONFIG = {
   },
   seo: {
     title: 'Portfolio of Manav Codaty',
-    description: 'This is the portfolio for Manav Codaty a passionate IGCSE Computer Science student studying in Dubai, UAE at Dubai English Speaking College',
+    description: 'I am a passionate software developer, proficient in Python and Javascript. As an avid tech enthusiast,  I am dedicated to pushing the boundaries of my skill set whilst contributing to the open-source community. ',
     imageURL: '',
   },
   social: {
@@ -77,7 +77,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      '', // Empty fileUrl will hide the `Download Resume` button.
+      'https://www.canva.com/design/DAGDg3wJsn0/LvwPXAcw481PZQtLZFOQ4A/view?utm_content=DAGDg3wJsn0&utm_campaign=designshare&utm_medium=link&utm_source=editor', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Javascript',
