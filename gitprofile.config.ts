@@ -66,12 +66,12 @@ const CONFIG = {
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'manavcodaty',
+    medium: '',
     dev: 'manavcodaty',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'This is my website!',
+    website: '',
     phone: '+971 52 978 7466',
     email: 'manav.codaty@gmail.com',
   },
@@ -100,16 +100,16 @@ const CONFIG = {
     {
       name: 'IGCSE Computer Science',
       body: 'CIE Exam Board',
-      year: 'March 2027',
+      year: 'June 2024',
       link: 'https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-computer-science-0478/',
     },
   ],
   educations: [
     {
       institution: 'Dubai English Speaking College',
-      degree: 'Computer Science',
-      from: '2020',
-      to: '2027',
+      degree: 'Computer Science, Spanish, History, Economics',
+      from: '2023',
+      to: '2024',
     },
     
   ],
