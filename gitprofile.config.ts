@@ -77,7 +77,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.canva.com/design/DAGDg3wJsn0/LvwPXAcw481PZQtLZFOQ4A/view?utm_content=DAGDg3wJsn0&utm_campaign=designshare&utm_medium=link&utm_source=editor', // Empty fileUrl will hide the `Download Resume` button.
+      'https://www.canva.com/design/DAGcpe20iKQ/TyMLyc2DJdVkFj9bLXL7Ew/view?utm_content=DAGcpe20iKQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hcab444ba00', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Javascript',
