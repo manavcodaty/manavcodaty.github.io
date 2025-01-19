@@ -4,11 +4,7 @@ const CONFIG = {
   github: {
     username: 'manavcodaty', // Your GitHub org/user name. (This is the only required config)
   },
-  /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
-   */
+
   base: '/',
   projects: {
     github: {
@@ -57,8 +53,8 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: '',
-    twitter: '',
+    linkedin: 'manavcodaty',
+    twitter: 'manavcodaty',
     mastodon: '',
     researchGate: '',
     facebook: '',
@@ -90,8 +86,8 @@ const CONFIG = {
     'PostgreSQL',
     'Git',
     'Docker',
-    'HTML',
-    'CSS',
+    'React',
+    'NextJS',
     'Javascript',
     'Figma',
   ],
@@ -106,10 +102,10 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Dubai English Speaking College',
+      institution: 'DESS College',
       degree: 'Computer Science, Spanish, History, Economics',
       from: '2023',
-      to: '2024',
+      to: '2025',
     },
     
   ],
